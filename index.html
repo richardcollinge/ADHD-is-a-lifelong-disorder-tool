@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EaselJS demo: Inheritance</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+     
+</head>
+<body onLoad="initCanvas();">
+
+
+        
+      
+        
+        
+ <div id="wrapper" class="wrapperNormal">
+
+ 
+ 		<div id="Abstract" style="z-index: 1; position: absolute;  width:500px; height:260px; padding: 5px; visibility: hidden;">
+        <h1>ABSTRACT</h1>
+	The New England Journal of Medicine (NEJM) has the highest impact factor of all general medical journals (53.48 based on 2010 metrics) and a print circulation of almost 150000.  In addition, the NEJM  provides free online access to its archived research articles from 6 months after publication. Consequently, because of its 'impact' and 'reach', the NEJM is an attractive target for article publication. 
+<br> <br> 
+Wager et al (PLoS ONE 2010; 5[10]: e13591) showed that the NEJM published more randomized controlled trials (RCTs) solely funded by industry than other 'top-tier' general medical journals, such as the Journal of the American Medical Association (~30 vs 15 manuscripts/year [2002–2008], respectively). 
+<br> <br> 
+
+			<a href="http://easeljs.com/">This is a link</a>
+		</div>
+        
+         	
+  <canvas id="demoCanvas" width="1024" height="672"  >
+	
+		<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
+      
+		<div id="flashContent" style="visibility: hidden;">
+			<a href="http://www.adobe.com/go/getflash">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+			<p>This page requires Flash Player version 10.3.0 or higher.</p>
+		</div>
+	</canvas>
+    </div>
+    
+     <script src="js/libs/modernizr.js"></script>
+ 
+
+     
+     		<script type="text/javascript">
+
+			function initCanvas(canvas) {
+				
+       
+				if(Modernizr.canvas){
+				console.log("Canvas is supported");
+		      $("#flashContent").hide();
+				initMain();
+				}else{
+             console.log("Canvas is not supported");
+			 $("#flashContent").show();
+				//flash content to go here
+				}
+				
+			}
+			</script>
+            
+             <!--[if !(lt IE 9)]><!-->       
+     <script src="js/libs/jquery-1.8.2.min.js"></script>
+     <script src="js/libs/easeljs-0.5.0.min.js"></script>  
+     <script src="js/libs/preloadjs-0.2.0.min.js"></script>
+     <script src="js/libs/tweenjs-0.3.0.min.js"></script>	
+     <script src="js/libs/TweenLite.min.js"></script>
+     <script src="js/libs/EasePack.min.js"></script>
+     <script src="js/libs/jquery.touchSwipe.min.js"></script>      
+     <script src="js/Main.js"></script>
+  
+     <script src="js/preload.js"></script>
+     <script src="js/image.js"></script>
+     <script src="js/textClass.js"></script>
+	 <script src="js/Button.js"></script>
+     <script src="js/circleClass.js"></script>
+     <script src="js/DockMenu.js"></script>
+     <script src="js/Icon.js"></script>
+     <script src="js/pinchImage.js"></script>
+<!--<![endif]-->
+
+    
+     <!--[if !(lt IE 9)]><!-->
+   <script src="js/libs/jquery.mCustomScrollbar.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script src="js/libs/jquery.mousewheel.min.js"></script>
+<script src="js/libs/jquery.mCustomScrollbar.js"></script>
+ <script>
+    (function($){
+        $(window).load(function(){
+            $("#Scrolling").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
+<!--<![endif]-->
+</body>
+</html>
