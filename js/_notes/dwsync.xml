@@ -7,7 +7,15 @@
 <file name="circleClass.js" server="mini.pair.com//usr/www/users/caribdcn/60fps/html5/" local="130220866176107405" remote="130029372000000000" Dst="2" />
 <file name="deviceOrientation.js" server="mini.pair.com//usr/www/users/caribdcn/60fps/html5/" local="130220866182527405" remote="130031964000000000" Dst="2" />
 <file name="image.js" server="mini.pair.com//usr/www/users/caribdcn/60fps/html5/" local="130220866187777405" remote="130029372000000000" Dst="2" />
-<file name="pinchImage.js" server="mini.pair.com//usr/www/users/caribdcn/60fps/html5/" local="130220866247507405" remote="130028508000000000" Dst="2" />
 <file name="preload.js" server="mini.pair.com//usr/www/users/caribdcn/60fps/html5/" local="130220866249547405" remote="130034556000000000" Dst="2" />
 <file name="textClass.js" server="mini.pair.com//usr/www/users/caribdcn/60fps/html5/" local="130220866257547405" remote="130027644000000000" Dst="2" />
+<file name="Button.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130222677102811210" remote="130222681800000000" Dst="2" />
+<file name="circleClass.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130220866176107405" remote="130222681800000000" Dst="2" />
+<file name="deviceOrientation.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130220866182527405" remote="130222681800000000" Dst="2" />
+<file name="DockMenu.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130220866166357405" remote="130222681800000000" Dst="2" />
+<file name="Icon.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130220866172917405" remote="130222681800000000" Dst="2" />
+<file name="image.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130222676981851210" remote="130222681800000000" Dst="2" />
+<file name="Main.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130222673076841210" remote="130222681800000000" Dst="2" />
+<file name="preload.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130222662847661210" remote="130222681800000000" Dst="2" />
+<file name="textClass.js" server="mccann-vm3.vm.melbourne.co.uk//var/www/vhosts/default/htdocs/shire/disorder/" local="130220866257547405" remote="130222681800000000" Dst="2" />
 </dwsync>

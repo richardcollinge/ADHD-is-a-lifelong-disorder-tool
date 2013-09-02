@@ -64,7 +64,8 @@ console.log("preload init");
 
             stage.addChild(loaderBar);
 
-            preload = new createjs.PreloadJS(false);
+           preload = new createjs.PreloadJS(false);
+		   //preload = new createjs.LoadQueue(false);
 
 
          preload.onProgress = handleProgress;

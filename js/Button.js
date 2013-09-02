@@ -40,33 +40,38 @@ p.initialize = function(buttonType,label, color, asset,thisX, thisY,fade,delay) 
 	if (fade==true){
 	buttonBG.alpha=0;
 	TweenLite.to(buttonBG, .5, {alpha:1, delay:delay});
-	console.log(fade);
+	//console.log(fade);
 	}
 	
-	console.log(buttonType);
+	//console.log(buttonType);
 }
 
 
 p.onClick = function() {
 
 //alert("click");
-	console.log(this.buttonType);
-
+	//console.log(this.buttonType);
+    section = this.label;
+	
+	
+	
+	if(this.buttonType=="sub"){
+	pageNum=0;//resets page number when loading a new section
+	//pageStatus="hold";
+	goPage("hold");
+	}
 	
 	if(this.buttonType=="next"){
-		goNextPage();
+		goPage("next");
 	}
 	
-	if(this.buttonType=="girl6"){
-		goGirl();
+	if(this.buttonType=="prev"){
+		goPage("prev");
 	}
 	
-		if(this.buttonType=="boy13"){
-		goBoy();
-	}
-	
-		if(this.buttonType=="man18"){
-		goMan();
+	if(this.buttonType=="home"){
+		//console.log("go home");
+		goHome();
 	}
 	
 	
@@ -82,7 +87,7 @@ p.onClick = function() {
 
 p.onPress = function(evt) {
 	//alert("press");
-	console.log("press");
+	//console.log("press");
 }
 
 

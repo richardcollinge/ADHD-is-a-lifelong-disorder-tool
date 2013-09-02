@@ -41,7 +41,7 @@ p.initialize = function(thisX, thisY, asset, fade, delay,swipeable) {
 	if (fade==true){
 	imageSRC.alpha=0;
 	TweenLite.to(imageSRC, .5, {alpha:1, delay:delay});
-	console.log(fade);
+	//console.log(fade);
 	}
 
 }//end p function
@@ -66,7 +66,7 @@ p.initialize = function(thisX, thisY, asset, fade, delay,swipeable) {
 
 		//store the touch id
 		touchID = touch.identifier;
-alert("aaa");
+//alert("aaa");
 		//unpause eveything
 		Tick.setPaused(false);
 
